@@ -1,0 +1,27 @@
+{
+  
+  "name": "b2gsoft",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "question-1": "cd question-1 && node index.js",
+    "question-2": "cd question-2 && node index.js",
+    "start": "(cd question-1 && node index.js) & (cd question-2 && node index.js)"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheChiran/b2gsoft-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheChiran/b2gsoft-test/issues"
+  },
+  "homepage": "https://github.com/TheChiran/b2gsoft-test#readme",
+  "description": ""
+}
