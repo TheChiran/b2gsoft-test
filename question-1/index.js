@@ -1,8 +1,8 @@
 /**
  * @question {
  *  Employees names should be printed
- * from this API -> https://api.b2gsoft.com/api/v1/interview/question/one
- * Output: [nishad, shahidul, rizwan, shamsul, akib]
+ *  from this API -> https://api.b2gsoft.com/api/v1/interview/question/one
+ *  Output: [nishad, shahidul, rizwan, shamsul, akib]
  * }
  *
  * @approached_solution [
@@ -15,7 +15,7 @@
  */
 const axios = require("axios");
 
-async function displayOutput() {
+async function getOutput() {
   let output = [];
 
   try {
@@ -33,7 +33,7 @@ async function displayOutput() {
 }
 
 (async () => {
-  const response = await displayOutput();
+  const response = await getOutput();
   console.log("Question-1 solution: ", response);
   return;
 })();
